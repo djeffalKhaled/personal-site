@@ -21,10 +21,10 @@ function About(_props : {},ref : React.Ref<HTMLDivElement>) {
         <div className = "About Window" id = "aboutWindow" ref = {ref}>
             <div className = "Title">About :</div>
             <div className = "Bio">
-                I'm a CS student and a bit of a programmer, I created this website to study
+                I'm a CS student, I created this website to study
                 the basics of a frontend framework while keeping track of certain projects I made.
                 I like art and that means I hate boring things, so I decided to go "creative mode" when it comes to the UI.
-                So enjoy the random video game references ;)
+                So enjoy the random video game references 
             </div>
 
             <div className = "Title">Skills :</div>

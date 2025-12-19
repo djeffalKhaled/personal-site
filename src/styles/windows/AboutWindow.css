@@ -49,20 +49,12 @@
     height: auto;
 }
 
-.SkillImages img:hover {
-    animation: shiver 1.5s infinite;
+.SkillImages img {
+    transition: transform 0.3s ease; 
 }
 
-
-@keyframes shiver {
-	0% {	transform: translate(0, 0);}
-	5% {	transform: translate(-5px, -0);}
-	10% {	transform: translate(5px, 0);}
-	15% {	transform: translate(-5px, -0);}
-	20% {	transform: translate(5px, 0);}
-	25% {	transform: translate(-5px, -0);}
-	30% {	transform: translate(0, 0);}
-	100% {	transform: translate(0, 0);}
+.SkillImages img:hover {
+    transform: scale(1.05); 
 }
 
 

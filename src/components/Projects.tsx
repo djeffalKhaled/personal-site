@@ -1,7 +1,6 @@
 import '../styles/windows/Window.css'
 import '../styles/windows/ProjectWindow.css'
 import { forwardRef } from 'react';
-import gg from '../assets/GG.png'
 import laptopRender from '../assets/LaptopRender.png'
 import laptopMaterial from '../assets/LaptopMaterial.png'
 import laptopWireframe from '../assets/LaptopWireframe.png'
@@ -29,8 +28,8 @@ function Project(_props : {}, ref : React.Ref<HTMLDivElement>) {
                     Have you been in a situation where you looked at your saved money, and wondered exactly why it dropped? 
                     Has anyone lended from you some money and it happened so many times it confused you and you forgot 
                     how much money they took from you? Have you ever wasted so much money it landed you homeless? 
-                    Well try LogIT today! Log your personal finance everyday and you can register the reason you gained/lost money
-                    as well as loging any person who lended money from you! LogIT will cure your crippling money spending habbit.
+                    Well I made this thing, You can log your personal finance everyday and can register the reason you gained/lost money
+                    as well as loging any person who lended money from you.
                 </div>
 
                 <iframe className = "Frame" src="https://djeffalkhaled.github.io/LogIt/" width="80%" height="650px"></iframe>
